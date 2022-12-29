@@ -43,10 +43,9 @@ int main (int argc, char* argv[])
     {
         for (int i = 4; i < argc; i++)
         {
-            float num;
             try
             {
-                num = std::stof(argv[i]);
+                std::stof(argv[i]);
             }
             catch(std::invalid_argument& e)
             {
