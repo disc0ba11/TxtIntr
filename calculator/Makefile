@@ -6,7 +6,7 @@ RELEASE_EXEC	= calc
 DEBUG_EXEC	= calc-dbg
 SOURCE		= main.cpp
 
-all: debug release
+all: release
 
 debug: $(DEBUG_EXEC)
 
